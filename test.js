@@ -76,7 +76,7 @@ console.log('Iniciando bateria de testes automatizados...\n');
 
 console.log('Testando função saudacao():');
 
-executarTeste('SaudaÃ§Ã£o com nome válido', () => {
+executarTeste('Saudação com nome válido', () => {
 
     const resultado = saudacao('João');
 
