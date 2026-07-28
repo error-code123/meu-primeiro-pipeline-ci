@@ -70,6 +70,19 @@ jobs:
 
         echo "Aplicação executada com sucesso!" 
 
+    - name: Debug do test.js
+     run: |
+       echo "Número de linhas:"
+       wc -l test.js
+
+       echo ""
+       echo "Últimas 20 linhas:"
+       tail -20 test.js
+
+       echo ""
+       echo "Conteúdo completo:"
+       cat -n test.js
+
     - name: Mostrar conteúdo do test.js
       run: |
         echo "===== test.js ====="
