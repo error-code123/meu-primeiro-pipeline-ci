@@ -8,7 +8,7 @@ function saudacao(nome) {
 
     }
 
-    return `Olá!, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
+    return `Olá, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
 
 }
 
