@@ -71,7 +71,7 @@ jobs:
         echo "Aplicação executada com sucesso!" 
 
     - name: Debug do test.js
-     run: |
+      run: |
        echo "Número de linhas:"
        wc -l test.js
 
