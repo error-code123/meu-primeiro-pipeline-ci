@@ -122,18 +122,17 @@ console.log(` Passaram: ${testesPassaram}`);
 
 console.log(`Falharam: ${testesFalharam}`);
 
+
 if (testesFalharam > 0) {
 
     console.log('\n ATENÇÃO: Alguns testes falharam! O código precisa ser corrigido.');
 
-    process.exit(1); // Sair com código de erro
+    process.exit(1);
 
 } else {
 
     console.log('\n SUCESSO: Todos os testes passaram! O código está funcionando corretamente.');
 
-    process.exit(0); // Sair com código de sucesso
+    process.exit(0);
 
 }
-
-----------------
