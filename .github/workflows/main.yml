@@ -69,6 +69,12 @@ jobs:
         node app.js
 
         echo "Aplicação executada com sucesso!" 
+
+    - name: Mostrar conteúdo do test.js
+      run: |
+        echo "===== test.js ====="
+        cat test.js
+        echo "==================="
     
     - name: 4.5. Executando testes automatizados
 
