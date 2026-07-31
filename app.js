@@ -1,5 +1,5 @@
 // Aplicação simples para demonstrar CI/CD
-
+ 
 function saudacao(nome) {
 
     if (!nome || nome.trim() === '') {
